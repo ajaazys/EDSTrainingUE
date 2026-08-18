@@ -227,14 +227,7 @@
           "name": "image",
           "label": "Image",
           "multi": false
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "eyebrow",
-          "label": "Eyebrow Text",
-          "value": "Sustainability"
-        },
+        },        
         {
           "component": "text",
           "valueType": "string",
