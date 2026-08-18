@@ -16,7 +16,7 @@ import { createOptimizedPicture } from '../../scripts/aem.js';
 export default function decorate(block) {
   const rows = [...block.children];
 
-  const [imageRow, eyebrowRow, headingRow, descriptionRow, buttonTextRow, buttonLinkRow] = rows;
+  const [imageRow, headingRow, descriptionRow, buttonTextRow, buttonLinkRow] = rows;
 
   // ---- Image ----
   const imageWrapper = document.createElement('div');
@@ -34,12 +34,7 @@ export default function decorate(block) {
   const content = document.createElement('div');
   content.className = 'sustainability-content';
 
-  if (eyebrowRow?.textContent.trim()) {
-    const eyebrow = document.createElement('p');
-    eyebrow.className = 'sustainability-eyebrow';
-    eyebrow.textContent = eyebrowRow.textContent.trim();
-    content.append(eyebrow);
-  }
+
 
   if (headingRow?.textContent.trim()) {
     const heading = document.createElement('h2');
