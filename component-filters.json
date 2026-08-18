@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": "main",
     "components": [
       "section"
@@ -39,5 +38,9 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "sustainability",
+    "components": []
   }
 ]
