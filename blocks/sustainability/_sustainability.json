@@ -67,7 +67,7 @@
   "filters": [
     {
       "id": "sustainability",
-      "components": []
+      "components": ["sustainability"]
     }
   ]
 }
