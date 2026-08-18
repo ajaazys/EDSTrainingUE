@@ -214,9 +214,7 @@
         "valueType": "string"
       }
     ]
-  },
-  // 👇 ADD this object as a new entry in the "models" array
-    ,{
+  },{
       "id": "sustainability",
       "fields": [
         {
