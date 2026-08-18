@@ -88,6 +88,9 @@
   text-decoration: none;
   text-align: center;
   transition: background-color 0.2s ease, color 0.2s ease;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }
 
 .sustainability .sustainability-button:hover,
@@ -121,7 +124,5 @@
   .sustainability .sustainability-heading {
     font-size: var(--heading-font-size-xl, 40px);
   }
-  .sustainability .sustainability-button {
-    width: 100%;
-  }
+
 }
